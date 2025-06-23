@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Assignment 6</title>
+</head>
+<body>
+    <div class="container">
+       <header>
+            <!-- NAVIGATION SECTION -->
+                <nav class="nav-bar">
+                    <div class="nav-logo-and-text">
+                        <img src="assets/Vector.svg" alt="scissors logo">
+                        <img src="assets/Vector 2.svg" alt="line">
+                        <h1 class="nav-bar-p">SCISSOR</h1>
+                    </div>
+                    <ul class="nav-ul-links">
+                        <li><a class="btn btn-lists color-primary-base" href="#">My URLs</a></li>
+                        <li><a class="btn btn-lists" href="#">Features <img src="assets/chevron-down.svg" alt=""></a></li>
+                        <li><a class="btn btn-lists" href="#">Pricing</a></li>
+                        <li><a class="btn btn-lists" href="#">Analytics</a></li>
+                        <li><a class="btn btn-lists" href="#">FAQs</a></li>
+                    </ul>
+                    <ul class="nav-ul-links">
+                        <li><a class="btn btn-primary-outline" href="#">Log in</a></li>
+                        <li><a class="btn btn-primary" href="#">Try for free</a></li>
+                    </ul>
+                </nav>
+            <!-- HERO SECTION -->
+                <section class="hero-section flex-column">
+                    <h1>Optimize Your Online Experience with Our <br> Advanced <span>URL Shortening</span> Solution</h1>
+                    <p class="font-nm font-weight-nm line-height-p hero-paragraph">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, <br> branded links, and domain customization options to reinforce your brand presence and <br> enhance user engagement.</p>
+                    <ul>
+                        <li><a class="btn btn-primary" href="#">Sign Up</a></li>
+                        <li><a class="btn btn-primary-outline" href="#">Learn more</a></li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="assets/hero-section-arrow-img.png" alt="hero section arrow img">
+                        <p class="line-height-p">Seamlessly transform your long URLs into <span>concise</span><br> and <span>shareable links</span> with just few clicks.</p>
+                    </div>
+                    <img id="ellipse-img" src="assets/hero-section-3.png" alt="rectangle">
+                    <div class="hero-section-last-element">
+                        <div class="h1 font-weight-bd">One Stop. <br> Four <span class="color-primary-base">Possibilities.</span></div>
+                        <div class="flex flex-gap-10">
+                            <div class="flex-column flex-gap-1">
+                                <p class="h1 font-weight-bd">
+                                    3M
+                                </p>
+                                <p class="font-nm font-weight-nm">
+                                    Active users
+                                </p>
+                            </div>
+                            <div class="flex-column flex-gap-1">
+                                <p class="h1 font-weight-bd">
+                                    60M
+                                </p>
+                                <p class="font-nm font-weight-nm line-height-p">
+                                    Links & QR <br> codes created
+                                </p>
+                            </div>
+                            <div class="flex-column flex-gap-1">
+                                <p class="h1 font-weight-bd">
+                                    1B
+                                </p>
+                                <p class="font-nm font-weight-nm line-height-p">
+                                    Clicked & Scanned <br> connections
+                                </p>
+                            </div>
+                            <div class="flex-column flex-gap-1">
+                                <p class="h1 font-weight-bd">
+                                    300k
+                                </p>
+                                <p class="font-nm font-weight-nm">
+                                    App Integrations
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </header>
+        <main>
+            <!-- FEATURES SECTION -->
+                <section class="features-section">
+                    <div class="grid grid-row-gap-1 grid-column-gap-3 features-grid-section">
+                            <div id="grid-span" class="flex-column flex-gap-3">
+                            <div class="flex flex-gap-1">
+                                <img class="line-70-img" src="assets/Line 70.svg" alt="line 70">
+                                <p class="font-xlg font-weight-bd">Why choose <span class="color-primary-base">Scissors</span></p>
+                            </div>
+                            <p class="font-nm line-height-p scissors-text">Scissors is the hub of everything that has to do <br> with your link management. We shorten your URLs, <br> allow you creating custom ones for your personal, <br> business, event usage. Our swift QR code <br> creation, management and usage tracking with <br> advance analytics for all of these is second to <br> none.</p>
+                        </div>
+                        <div class="flex-column flex-gap-2">
+                            <img src="assets/url-shortening.svg" alt="url shortening">
+                            <p class="font-lg font-weight-bd">URL Shortening</p>
+                            <p class="font-nm line-height-nm">Scissor allows you to shorten URLs of your <br> business, events. Shorten your URL at scale, <br> URL redirects.</p>
+                        </div>
+                        <div class="flex-column flex-gap-2">
+                            <img src="assets/custom-urls.svg" alt="custom urls">
+                            <p class="font-lg font-weight-bd">Custom URLs</p>
+                            <p class="font-nm line-height-nm">With Scissor, you can create custom URLs, <br> with the length you want! A solution for socials <br> and businesses.</p>
+                        </div>
+                        <div class="flex-column flex-gap-2">
+                            <img src="assets/qr-codes.svg" alt="qr codes">
+                            <p class="font-lg font-weight-bd">QR Codes</p>
+                            <p class="font-nm line-height-nm">Generate QR codes to your business, events. <br> Bring your audience and customers to your <br> doorstep with this scan and go solution.</p>
+                        </div>
+                        <div class="flex-column flex-gap-2">
+                            <img src="assets/data-analytics.svg" alt="data analytics">
+                            <p class="font-lg font-weight-bd">Data Analytics</p>
+                            <p class="font-nm line-height-nm">Receive data on the usage of either your <br> shortened URL, custom URLs or generated QR <br> codes. Embedded to monitor progress.</p>
+                        </div>
+                    </div>
+                        <div class="flex flex-gap-1 first-flex-section">
+                            <img class="line-70-img" src="assets/Line 70.svg" alt="line-70-img">
+                            <p class="font-xlg font-weight-bd">A <span class="color-primary-base">price perfect</span> for your needs.</p>
+                        </div>
+                        <p class="line-height-nm font-nm text-align-center">From catering for your personal, business, event, socials needs, you can be <br> rest assured we have you in mind in our pricing.</p>
+                </section>
+            <!-- CTA SECTION -->
+                <section class="cta-section">
+                    <div class="flex pricing-card-container">
+                        <div class=" flex-column flex-gap-2_5 pricing-card-1">
+                            <p class="font-bd font-weight-nm">Basic</p>
+                            <h1 class="font-xlg">Free</h1>
+                            <p class="font-md">Free plan for all users</p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Unlimited URL Shortening
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Basic Link Analytics
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Customizable Short Links
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Standard Support
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                AD-supported
+                            </p>
+                        </div>
+                        <div class="flex-column flex-gap-2_5 pricing-card-2">
+                            <p class="font-bd color-white">Professional</p>
+                            <h1 class="font-xlg color-white">$15/month</h1>
+                            <p class="font-md color-white">Ideal for business creators</p>
+                            <p class="font-sm flex flex-gap-1 color-white">
+                                <span><img src="assets/check-circle-white.svg" alt="check-circle-white"></span>
+                                Enhanced Link Analytics
+                            </p>
+                            <p class="font-sm flex flex-gap-1 color-white">
+                                <span><img src="assets/check-circle-white.svg" alt="check-circle-white"></span>
+                                Custom Branded Domains
+                            </p>
+                            <p class="font-sm flex flex-gap-1 color-white">
+                                <span><img src="assets/check-circle-white.svg" alt="check-circle-white"></span>
+                                Advanced Link Customization
+                            </p>
+                            <p class="font-sm flex flex-gap-1 color-white">
+                                <span><img src="assets/check-circle-white.svg" alt="check-circle-white"></span>
+                                Priority Support
+                            </p>
+                            <p class="font-sm flex flex-gap-1 color-white">
+                                <span><img src="assets/check-circle-white.svg" alt="check-circle-white"></span>
+                                AD-free Experience
+                            </p>
+                        </div>
+                        <div class="flex-column flex-gap-2_5 pricing-card-3">
+                            <p class="font-bd">Teams</p>
+                            <h1 class="font-xlg">$25/month</h1>
+                            <p class="font-md">Share with up to 10 users</p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Team Collaboration
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                User Roles and Permission
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Enhanced Security
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                API Access
+                            </p>
+                            <p class="font-sm flex flex-gap-1">
+                                <span><img src="assets/check-circle-blue.svg" alt="check-circle-blue"></span>
+                                Dedicated Account Manager
+                            </p>
+                        </div>  
+                    </div>
+                    <ul id="flex-ul" class="flex flex-gap-3 flex-container ">
+                        <li><a class="btn btn-primary-outline" href="#">Get Custom Pricing</a></li>
+                        <li><a class="btn btn-primary" href="#">Select Pricing</a></li>
+                    </ul>
+                </section>
+                <section class="form-section">
+                    <div class="form-container flex-column">
+                        <input class="btn btn-primary-outline" type="text" placeholder="Paste URL here...">
+                        
+                        <input type="text" placeholder="Type Alias here"> 
+                    </div>
+                </section>
+        </main> 
+    </div>
+</body>
+</html>
