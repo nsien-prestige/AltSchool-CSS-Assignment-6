@@ -34,7 +34,7 @@
             <!-- HERO SECTION -->
                 <section class="hero-section flex-column">
                     <h1>Optimize Your Online Experience with Our <br> Advanced <span>URL Shortening</span> Solution</h1>
-                    <p class="font-nm font-weight-nm line-height-p hero-paragraph">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, <br> branded links, and domain customization options to reinforce your brand presence and <br> enhance user engagement.</p>
+                    <p class="font-nm font-weight-md line-height-p hero-paragraph">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, <br> branded links, and domain customization options to reinforce your brand presence and <br> enhance user engagement.</p>
                     <ul>
                         <li><a class="btn btn-primary" href="#">Sign Up</a></li>
                         <li><a class="btn btn-primary-outline" href="#">Learn more</a></li>
@@ -206,11 +206,22 @@
                     </ul>
                 </section>
                 <section class="form-section">
-                    <div class="form-container flex-column">
-                        <input class="btn btn-primary-outline" type="text" placeholder="Paste URL here...">
+                    <div class="form-container grid flex-gap-3">
+                        <input id="paste-url" class="btn" type="text" placeholder="Paste URL here...">
                         
-                        <input type="text" placeholder="Type Alias here"> 
+                        <select id="domain-selector" class="btn" name="domain selector">
+                            <option value="">Choose Domain</option>
+                        </select>
+                                                
+                        <input id="form-alias" class="btn" type="text" placeholder="Type Alias here"> 
+
+                        <a class="btn btn-primary trim-url-link flex-gap-3" href="#">Trim URL <span><img src="assets/magic wand.svg" alt="magic wand"></span></a>
+                    
+                        <p class="color-primary-tint font-nm font-weight-md line-height-p">By clicking TrimURL, I agree to the <span class="font-weight-bd color-primary-base">Terms of Service,</span> <br> <span class="font-weight-bd color-primary-base">Privacy Policy</span> and Use of Cookies.</p>
                     </div>
+                </section>
+                <section class="FAQs-section">
+                    <div><span><img src="assets/Line 70.svg" alt="line-70-img"></span> FAQs</div>
                 </section>
         </main> 
     </div>
