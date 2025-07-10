@@ -16,8 +16,8 @@
 
                 <nav class="nav-bar">
                     <div class="nav-logo-and-text">
-                        <img src="assets/Vector.svg" alt="scissors logo">
-                        <img src="assets/Vector 2.svg" alt="line">
+                        <img class="scissors-logo-img" src="assets/Vector-blue.svg" alt="scissors logo">
+                        <img class="scissors-logo-img" src="assets/Vector 2-blue.svg" alt="line">
                         <h1 class="nav-bar-p">SCISSOR</h1>
                     </div>
                     <ul class="nav-ul-links">
@@ -89,7 +89,7 @@
             <!-- FEATURES SECTION -->
 
                 <section class="features-section">
-                    <div class="grid grid-row-gap-1 grid-column-gap-3 features-grid-section">
+                    <div class="grid grid-row-gap-15 grid-column-gap-3 features-grid-section">
                             <div id="grid-span" class="flex-column flex-gap-3">
                             <div class="flex flex-gap-1">
                                 <img class="line-70-img" src="assets/Line 70.svg" alt="line 70">
@@ -98,22 +98,22 @@
                             <p class="font-nm line-height-p scissors-text">Scissors is the hub of everything that has to do <br> with your link management. We shorten your URLs, <br> allow you creating custom ones for your personal, <br> business, event usage. Our swift QR code <br> creation, management and usage tracking with <br> advance analytics for all of these is second to <br> none.</p>
                         </div>
                         <div class="flex-column flex-gap-2">
-                            <img src="assets/url-shortening.svg" alt="url shortening">
+                            <img class="scissors-features-img" src="assets/url-shortening.svg" alt="url shortening">
                             <p class="font-lg font-weight-bd">URL Shortening</p>
                             <p class="font-nm line-height-nm">Scissor allows you to shorten URLs of your <br> business, events. Shorten your URL at scale, <br> URL redirects.</p>
                         </div>
                         <div class="flex-column flex-gap-2">
-                            <img src="assets/custom-urls.svg" alt="custom urls">
+                            <img class="scissors-features-img" src="assets/custom-urls.svg" alt="custom urls">
                             <p class="font-lg font-weight-bd">Custom URLs</p>
                             <p class="font-nm line-height-nm">With Scissor, you can create custom URLs, <br> with the length you want! A solution for socials <br> and businesses.</p>
                         </div>
                         <div class="flex-column flex-gap-2">
-                            <img src="assets/qr-codes.svg" alt="qr codes">
+                            <img class="scissors-features-img" src="assets/qr-codes.svg" alt="qr codes">
                             <p class="font-lg font-weight-bd">QR Codes</p>
                             <p class="font-nm line-height-nm">Generate QR codes to your business, events. <br> Bring your audience and customers to your <br> doorstep with this scan and go solution.</p>
                         </div>
                         <div class="flex-column flex-gap-2">
-                            <img src="assets/data-analytics.svg" alt="data analytics">
+                            <img class="scissors-features-img" src="assets/data-analytics.svg" alt="data analytics">
                             <p class="font-lg font-weight-bd">Data Analytics</p>
                             <p class="font-nm line-height-nm">Receive data on the usage of either your <br> shortened URL, custom URLs or generated QR <br> codes. Embedded to monitor progress.</p>
                         </div>
@@ -232,22 +232,66 @@
                 <section class="FAQs-section">
                     <div class="font-lg font-weight-bd text-align-center FAQs-header"><span><img class="line-70-img" src="assets/Line 70.svg" alt="line-70-img"></span> FAQs</div>
                     <div class="flex-column flex-gap-3_5 FAQs-container">
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>How does URL shortening work?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>Is it necessary to create an account to use URL shortening service?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>Are the shortened links permanent? Will they expire?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>Are there any limitations to the number of URLs I can shorten?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>Can I customize the shortened URL links to reflect my brand or content?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>Can I track the perfomance of my shortened URLs?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2 line-height-lg"><p>How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2"><p>What is a QR code and what can it do?</p> <hr></div>
-                        <div class="font-md font-weight-md flex-column flex-gap-2 line-height-lg"><p>Is there an API available for integrating the URL shortening service into my own applications or websites?</p> <hr></div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>How does URL shortening work?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>Is it necessary to create an account to use URL shortening service?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>Are the shortened links permanent? Will they expire?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>Are there any limitations to the number of URLs I can shorten?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>Can I customize the shortened URL links to reflect my brand or content?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>Can I track the perfomance of my shortened URLs?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2 line-height-lg">
+                            <div>
+                                <p>How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2">
+                            <div>
+                                <p>What is a QR code and what can it do?</p> 
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="font-md font-weight-md flex-column flex-gap-2 line-height-lg">
+                            <div>
+                                <p>Is there an API available for integrating the URL shortening service into my own applications or websites?</p> 
+                            </div>
+                            <hr>
+                        </div>
                     </div>    
-                
                 
                 </section>
 
-            <!-- FOOTER SECTION -->
-                <section class="footer-section">
+            <!-- FOOTER IMG SECTION -->
+                <section class="footer-img-container">
                     <div class="footer-img flex-column flex-gap-4_5">
                         <p class="color-white font-lg font-weight-bd ">Revolutionizing Link Optimization</p>
                         <a class="btn btn-primary" href="#">Get Started</a>
@@ -255,9 +299,93 @@
                     <h6>footer</h6>
                 </section>    
         </main> 
-        <footer>
-            <!-- FOOTER SECTION -->
-                
+        <footer class="flex flex-gap-10">
+            <div class="flex-column flex-gap-5">
+                <div class="scissors-footer flex">
+                    <img class="scissors-logo-img" src="assets/Vector-black.svg" alt="scissors logo">
+                    <img class="scissors-logo-img" src="assets/Vector 2-black.svg" alt="line">
+                    <h1 class="nav-bar-p">SCISSOR</h1>
+                </div>
+                <div class="flex flex-gap-3_5">
+                    <a href="#"><img class="scissors-footer-links-img" src="assets/logo-twitter.svg" alt="twitter logo"></a>
+                    <a href="#"><img class="scissors-footer-links-img" src="assets/logo-instagram.svg" alt="instagram logo"></a>
+                    <a href="#"><img class="scissors-footer-links-img" src="assets/logo-linkedin.svg" alt="linkedin logo"></a>
+                    <a href="#"><img class="scissors-footer-links-img" src="assets/logo-facebook.svg" alt="facebook logo"></a>
+                </div>
+            </div>
+            <div class="footer-FAQ-links grid grid-column-gap-6">
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Why Scissor ?</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Scissor 101</li>
+                        <li>Integrations & API</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Solutions</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Social Media</li>
+                        <li>Digital Marketing</li>
+                        <li>Customer Service</li>
+                        <li>For Developers</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Products</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Link management</li>
+                        <li>QR Codes</li>
+                        <li>Link-in-bio</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Company</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>About Scissor</li>
+                        <li>Careers</li>
+                        <li>Partners</li>
+                        <li>Press</li>
+                        <li>Contact</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Resources</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Blog</li>
+                        <li>Resource Library</li>
+                        <li>Developers</li>
+                        <li>App Connectors</li>
+                        <li>Support</li>
+                        <li>Trust Center</li>
+                        <li>Browser Extension</li>
+                        <li>Mobile App</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Features</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Branded Links</li>
+                        <li>Mobile Links</li>
+                        <li>Campaign</li>
+                        <li>Management &</li>
+                        <li>Analytics</li>
+                        <li>QR Code Generation</li>
+                    </ul>
+                </div>
+                <div class="flex-column flex-gap-1_5">
+                    <p class="font-nm font-weight-bd">Legal</p>
+                    <ul class="font-sm font-weight-md flex-column flex-gap-1">
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Acceptable Use Policy</li>
+                        <li>Code of Conduct</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="terms-of-service font-sm">Term of Service | Security |      Scissor 2023</p>
         </footer>
     </div>
 </body>

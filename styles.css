@@ -143,12 +143,8 @@ header{
     background-size: cover;
 }
 
-.comtainer{
-    max-width: 1440px;
-}
 
-
-/* ---------------------- COMPONENTS ---------------------- */
+/* ---------------------- COMPONENTS OR REUSEABLE CODE ---------------------- */
 
 .btn{
     padding: 1rem 2rem;
@@ -274,6 +270,10 @@ header{
     display: flex;
 }
 
+.flex-gap-0_5{
+    gap: 0.5rem;
+}
+
 .flex-gap-1{
     gap: 1rem;
 }
@@ -332,11 +332,35 @@ header{
 }
 
 .grid-row-gap-1{
+    row-gap: 1rem;
+}
+
+.grid-row-gap-2{
+    row-gap: 2rem;
+} 
+
+.grid-row-gap-3{
+    row-gap: 3rem;
+}
+
+.grid-row-gap-4{
+    row-gap: 4rem;
+}
+
+.grid-row-gap-10{
+    row-gap: 10rem;
+}
+
+.grid-row-gap-15{
     row-gap: 15rem;
 }
 
 .grid-column-gap-3{
     column-gap: 3rem;
+}
+
+.grid-column-gap-6{
+    column-gap: 6rem;
 }
 
 .line-70-img{
@@ -348,6 +372,18 @@ header{
     text-align: center;
 }
 
+.scissors-features-img{
+    width: 6rem;
+}
+
+.scissors-logo-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.scissors-footer-links-img{
+    width: 3rem;
+}
 
 /* ---------------------- SECTIONS ---------------------- */
 
@@ -369,11 +405,6 @@ header{
 .nav-logo-and-text{
     display: flex;
     align-items: center;
-}
-
-nav div img{
-    height: 20px;
-    width: 2rem;
 }
 
 nav li img{
@@ -488,7 +519,7 @@ nav li img{
 .features-grid-section{
     grid-template-columns: 1.4fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-bottom: 25rem;
+    margin-bottom: 23rem;
 }
 
 #grid-span{
@@ -627,12 +658,12 @@ nav li img{
 }
 
 .FAQs-container{
-    max-width: 85rem;
+    max-width: 91rem;
     margin: 0 auto;
     justify-content: center;
 }
 
-.footer-section{
+.footer-img-container{
     position: relative;
 }
 
@@ -648,7 +679,7 @@ nav li img{
     justify-content: center;
 }
 
-.footer-section h6{
+.footer-img-container h6{
     position: absolute;
     bottom: 1rem;
     left: 0;
@@ -664,5 +695,32 @@ footer{
     background-size: cover;
     width: 100%;
     height: 60rem;
+    padding: 8rem 16rem;
+    position: relative;
+}
+
+.scissors-footer{
+    height: fit-content;
+}
+
+.scissors-footer img{
+    height: 3.9rem;
+    width: 3.6rem;
+}
+
+.scissors-footer h1{
+    color: var(--black);
+    font-size: var(--text-lg);
+}
+
+.footer-FAQ-links{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.terms-of-service{
+    position: absolute;
+    bottom: 4rem;
+    right: 12rem;
 }
 
